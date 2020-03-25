@@ -29,10 +29,3 @@ class Student(Employee):
 
     def quit_class(self):
         pass
-
-class Professor(Employee):
-    def __init__(self, new_gender, new_major, new_id):
-        super().__init__(new_gender, new_major, new_id)
-
-    def borrow_resources(self):
-        print('professor borrow')
